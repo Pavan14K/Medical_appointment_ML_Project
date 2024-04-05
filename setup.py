@@ -17,7 +17,7 @@ def get_requirements(file_path: str) -> List[str]:
     return requirements
 
 setup(
-    name='Medical_appointment_ML_Project',
+    name='ML_Projects',
     version='0.0.1',
     author='Pavan',
     author_email='pavankumar.achar14@gmail.com',

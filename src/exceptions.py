@@ -1,4 +1,6 @@
 import sys
+from src.logger import logging # This import is from logging.py which will write the logs for the exception occured here
+
 #We will write custom exception handling
 # Below code will be common for all projects to handle exception
 def error_message_detail(error,error_detail:sys):
