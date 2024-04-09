@@ -17,3 +17,11 @@ logging.basicConfig(
     level=logging.INFO,
     
 )
+
+
+
+#Let us test if the logger file is writing logs or not
+
+if __name__ =='__main__':
+    logging.info("Logging has started")
+
