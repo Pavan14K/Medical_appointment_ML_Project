@@ -48,10 +48,10 @@ class CustomException(Exception): # this creates exception named as custom excep
 
 # We will test this exception code whether it is correct or not?
 
-if __name__=='__main__':
+#if __name__=='__main__':
     
-    try:
-        a=1/10
-    except Exception as e:
-        logging.info("Divide by zero")
-        raise CustomException(e,sys)
+#    try:
+#        a=1/10
+#    except Exception as e:
+#       logging.info("Divide by zero")
+#        raise CustomException(e,sys)
